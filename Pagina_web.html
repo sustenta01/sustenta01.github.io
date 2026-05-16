@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sustenta - Líderes en recolección de residuos y fabricación de bloques ecológicos. Soluciones sostenibles para el futuro.">
+    <title>Sustenta | Recolección de Residuos y Fabricación de Bloques</title>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   <!-- Header -->
+   <header class="header">
+      <div class="container nav-container">
+          <img src="./Logo-removebg-preview.png" alt="Sustenta Logo" class="logo">
+          <nav class="nav-links">
+              <a href="#inicio">Inicio</a>
+              <a href="#servicios">Servicios</a>
+              <a href="#contacto" class="btn-primary">Contáctanos</a>
+          </nav>
+      </div>
+   </header>
+
+   <!-- Hero Section -->
+   <section id="inicio" class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('./hero_bg.png');">
+       <div class="container hero-content">
+           <h1>Construyendo un futuro <span class="highlight">sostenible</span></h1>
+           <p>En Sustenta, transformamos nuestro entorno mediante la gestión responsable de residuos y la fabricación de bloques de construcción de la más alta calidad.</p>
+           <div class="hero-buttons">
+               <a href="#servicios" class="btn-primary">Nuestros Servicios</a>
+               <a href="#contacto" class="btn-secondary">Cotiza Ahora</a>
+           </div>
+       </div>
+   </section>
+
+   <!-- Services Section -->
+   <section id="servicios" class="services">
+       <div class="container">
+           <h2 class="section-title">Lo Que Hacemos</h2>
+           <p class="section-subtitle">Soluciones integrales para la industria y el medio ambiente.</p>
+           
+           <div class="services-grid">
+               <!-- Service 1 -->
+               <div class="service-card">
+                   <div class="service-image-wrapper">
+                       <img src="./waste_collection.png" alt="Recolección de Residuos" class="service-img">
+                   </div>
+                   <div class="service-content">
+                       <div class="service-icon"><i class="fa-solid fa-recycle"></i></div>
+                       <h3>Recolección de Residuos</h3>
+                       <p>Gestión eficiente y ecológica de residuos sólidos no peligrosos. Ayudamos a su empresa a cumplir con las normativas ambientales mientras cuidamos nuestro planeta.</p>
+                       <ul class="service-features">
+                           <li><i class="fa-solid fa-check"></i> Recolección programada</li>
+                           <li><i class="fa-solid fa-check"></i> Manejo responsable</li>
+                           <li><i class="fa-solid fa-check"></i> Certificados ambientales</li>
+                       </ul>
+                   </div>
+               </div>
+               
+               <!-- Service 2 -->
+               <div class="service-card">
+                   <div class="service-image-wrapper">
+                       <img src="./block_manufacturing.png" alt="Fabricación de Bloques" class="service-img">
+                   </div>
+                   <div class="service-content">
+                       <div class="service-icon"><i class="fa-solid fa-cubes"></i></div>
+                       <h3>Fabricación de Bloques</h3>
+                       <p>Producción de bloques de concreto de alta resistencia para la construcción. Calidad garantizada para cimientos sólidos y duraderos.</p>
+                       <ul class="service-features">
+                           <li><i class="fa-solid fa-check"></i> Alta durabilidad</li>
+                           <li><i class="fa-solid fa-check"></i> Diferentes medidas</li>
+                           <li><i class="fa-solid fa-check"></i> Producción a gran escala</li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- CTA / Contact Section -->
+   <section id="contacto" class="cta">
+       <div class="container">
+           <div class="cta-content">
+               <h2>¿Listo para empezar un proyecto con Sustenta?</h2>
+               <p>Contáctanos hoy mismo para recibir una cotización personalizada o para más información sobre nuestros servicios de recolección y fabricación.</p>
+               <form class="contact-form" onsubmit="event.preventDefault(); alert('Gracias por su mensaje. Nos pondremos en contacto pronto.');">
+                   <div class="form-group">
+                       <input type="text" placeholder="Nombre completo" required>
+                       <input type="email" placeholder="Correo electrónico" required>
+                   </div>
+                   <textarea placeholder="Mensaje" rows="4" required></textarea>
+                   <button type="submit" class="btn-primary btn-block">Enviar Mensaje</button>
+               </form>
+           </div>
+       </div>
+   </section>
+
+   <!-- Footer -->
+   <footer class="footer">
+       <div class="container footer-content">
+           <div class="footer-brand">
+               <div class="footer-logo-wrapper" style="background: white; padding: 10px; border-radius: 8px; display: inline-block; margin-bottom: 16px;">
+                   <img src="./Logo-removebg-preview.png" alt="Sustenta Logo" class="footer-logo" style="height: 48px; object-fit: contain;">
+               </div>
+               <p>Sustenta - Recolección de residuos y fabricación de bloques.</p>
+           </div>
+           <div class="footer-links">
+               <h4>Enlaces</h4>
+               <a href="#inicio">Inicio</a>
+               <a href="#servicios">Servicios</a>
+               <a href="#contacto">Contacto</a>
+           </div>
+           <div class="footer-contact">
+               <h4>Contacto</h4>
+               <p><i class="fa-solid fa-envelope"></i> info@sustenta.com</p>
+               <p><i class="fa-solid fa-phone"></i> +52 123 456 7890</p>
+               <p><i class="fa-solid fa-location-dot"></i> México</p>
+           </div>
+       </div>
+       <div class="footer-bottom">
+           <p>&copy; 2026 Sustenta. Todos los derechos reservados.</p>
+       </div>
+   </footer>
+
+   <script>
+       // Navbar scroll effect
+       window.addEventListener('scroll', () => {
+           const header = document.querySelector('.header');
+           if (window.scrollY > 50) {
+               header.classList.add('scrolled');
+           } else {
+               header.classList.remove('scrolled');
+           }
+       });
+
+       // Smooth scroll for anchor links
+       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+           anchor.addEventListener('click', function (e) {
+               e.preventDefault();
+               document.querySelector(this.getAttribute('href')).scrollIntoView({
+                   behavior: 'smooth'
+               });
+           });
+       });
+   </script>
+</body>
+</html>
